@@ -13,7 +13,7 @@ SUMMARY:Đăng ký cơm
 DESCRIPTION:Nhớ vào đăng ký cơm nha!
 LOCATION:Ứng dụng đăng ký cơm
 BEGIN:VALARM
-TRIGGER:-PT10M
+TRIGGER:-PT1M
 ACTION:DISPLAY
 DESCRIPTION:Đừng quên đăng ký cơm nha!
 END:VALARM
