@@ -3,6 +3,7 @@ VERSION:2.0
 PRODID:-//Your Company//Meal Registration Reminder//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+
 BEGIN:VEVENT
 UID:meal-register-reminder@yourdomain.com
 DTSTAMP:20250427T110000Z
@@ -11,11 +12,12 @@ DTEND;TZID=Asia/Ho_Chi_Minh:20250427T210000
 RRULE:FREQ=DAILY
 SUMMARY:Đăng ký cơm
 DESCRIPTION:Nhớ vào đăng ký cơm nha!
-LOCATION:Ứng dụng đăng ký cơm
+
 BEGIN:VALARM
-TRIGGER:-PT5M
 ACTION:DISPLAY
 DESCRIPTION:Đừng quên đăng ký cơm nha!
 END:VALARM
+
 END:VEVENT
+
 END:VCALENDAR
